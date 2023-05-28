@@ -50,7 +50,7 @@ class MasterImport implements ToModel,WithHeadingRow,WithChunkReading
     }
     public function headingRow(): int
     {
-        return 5406;
+        return 6;
     }
     public function chunkSize(): int
     {
